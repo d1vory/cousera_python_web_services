@@ -1,0 +1,177 @@
+body{
+  min-width: 200px;
+}
+
+.search-form {
+  flex:1;
+}
+
+.logo-image{
+  background-image: url(https://cdn.sstatic.net/Img/unified/sprites.svg?v=fcc0ea44ba27);
+  background-position: 0 -500px;
+  text-indent: -9999em;
+  display: inline-block;
+
+}
+
+.logo, .logo-image{
+  width: 150px;
+  height: 30px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-top:0px;
+}
+
+
+
+header{
+  box-shadow: 1px 6px 2px rgb(0 0 0 / 5%), 6px 19px 15px 16px rgb(0 0 0 / 5%), 1px -3px 6px 0px;
+}
+
+
+.main-content-wrapper{
+  padding: 0px;
+}
+
+.main-content{
+  margin: 40px 20px 0 20px
+
+}
+
+
+
+.sidebar-wrapper{
+  padding: 0px;
+}
+
+.sidebar{
+  padding: 10px;
+  background-color: #fdf7e3;
+  border-radius: 5px
+}
+
+
+
+
+
+.question {
+  display: flex;
+  flex-direction: row;
+}
+
+.question-text-header {
+    font-size: 2.07692308rem;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    line-height: 1.35;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.question-description-paragraph {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.tags-holder{
+  display: inline-block;
+}
+
+.tag {
+  color: #39739d;
+  background-color: #e1ecf4;
+  border-color: transparent;
+  font-size: 12px;
+
+  display: inline-block;
+  padding: .4em .5em;
+  margin: 2px 2px 2px 0;
+  font-size: 11px;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+}
+.big-text{
+  font-size: 1.4em;
+}
+
+
+.member-link{
+  display: block;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.user-rating-controls{
+  display: flex;
+  flex-direction: column;
+
+  justify-content:space-around;
+  align-items: center;
+
+}
+
+.user-rating-holder{
+  margin-top:20px;
+}
+
+.user-rating-text{
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.vote-icon{
+  height: 40px;
+  width: 40px;
+}
+
+.user-info{
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.user-avatar{
+  padding-top: 20px;
+}
+
+.user-avatar-img{
+  width:100px;
+}
+
+.mybutton{
+  background-color: transparent;
+}
+
+.space{
+  line-height: 1.3;
+    margin: 0 0 1em;
+}
+
+.answer {
+  display: flex;
+
+}
+.answer-form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.answer-btn{
+  width: 100px;
+  margin: 10px 0px;
+}
+
+.answer-form-input{
+
+  flex:1;
+}
